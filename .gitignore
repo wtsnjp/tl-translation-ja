@@ -4,3 +4,7 @@ translations
 # generated files
 messages.mo
 ja-merged.po
+
+# builded files
+README.JA
+readme.ja.html

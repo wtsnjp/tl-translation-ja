@@ -2,7 +2,7 @@
 require 'rake/clean'
 
 # cleaning
-CLEAN.include(["messages.mo", "ja-merged.po"])
+CLEAN.include(["messages.mo", "ja-merged.po", "README.JA", "readme.ja.html"])
 
 desc "Check the translation file"
 task :check do
@@ -15,4 +15,13 @@ task :check do
 
   # Finale
   puts "All check done. Don't forget to update the revision date!"
+end
+
+desc "Build the TeX Live README files"
+task :readme do
+  # rename the markdown file
+  cp "tl-readme-ja.md", "README.JA"
+
+  # generate the HTML version
+  sh "pandoc tl-readme-ja.md -o readme.ja.html"
 end
