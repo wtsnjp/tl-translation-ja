@@ -22,6 +22,8 @@ TeX Live ディストリビューションは，GNU 系やその他 UNIX, macOS,
 
 ## インストール
 
+インストールスクリプトは install-tl という名前で，ディレクトリツリーのトップレベルに配置されています．`perl install-tl` で起動することができます．Windows では，同梱のバッチファイル  install-tl-windows.bat を実行することでも簡単に実行できます．macOS では，[MacTeX](https://tug.org/mactex/) を利用したい場合もあるでしょう．MacTeX には独自のネイティブインストーラが付属しています（これも DVD に収録されています．あなたが今いる `texlive/` ディレクトリのすぐ隣にあるはずです）．
+
 インストールプログラムは，install-tl（Windows 上では install-tl.bat）と呼ばれ，以下の2つの実行モードがあります：
 
 * `-gui` モード（Windows と macOS で規定）  
