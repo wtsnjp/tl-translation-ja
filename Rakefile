@@ -9,6 +9,11 @@ task :merge do
   sh "msgmerge -q ja.po ./translations/messages.pot -o ja-merged.po"
 end
 
+desc "Take the diff between the latest translation and that in distribution"
+task :diff => :merge do
+  sh "colordiff -u ./translations/ja.po ja-merged.po || true"
+end
+
 desc "Check the translation file"
 task :check => :merge do
   # is the po file valid?
