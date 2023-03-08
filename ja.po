@@ -1965,11 +1965,11 @@ msgid ""
 "list of groups is available on the web at https://tug.org/usergroups.html."
 msgstr ""
 "ドキュメントの一覧は%s/index.htmlをご覧ください。TeX Liveのウェブサイト"
-"（https://tug.org/texlive/）にはすべてのアップデートとコレクションの情報が掲載"
-"されています。TeX Liveは全世界のTeXユーザ会有志による合同プロジェクトで"
-"す。TeX Liveプロジェクトをサポートしていただける場合お好きなTeXユーザ会に"
-"入会することをご検討ください。TeXユーザ会の一覧はhttps://tug.org/usergroups."
-"htmlでご確認いただけます。"
+"（https://tug.org/texlive/）にはすべてのアップデートとコレクションの情報が掲"
+"載されています。TeX Liveは全世界のTeXユーザ会有志による合同プロジェクトです。"
+"TeX Liveプロジェクトをサポートしていただける場合お好きなTeXユーザ会に入会する"
+"ことをご検討ください。TeXユーザ会の一覧はhttps://tug.org/usergroups.htmlでご"
+"確認いただけます。"
 
 #: /home/texlive/karl/Master/tlpkg/translations/shortdesc.pl:2884
 #, perl-format
