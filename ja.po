@@ -1176,7 +1176,7 @@ msgstr "必要なディスク容量（MB）："
 
 #: tlpkg/installer/install-tl-gui.tcl:1600
 msgid "Disk space available (in MB):"
-msgstr "ディスクの空き容量（MB）：:"
+msgstr "ディスクの空き容量（MB）："
 
 #: tlpkg/installer/install-tl-gui.tcl:1630
 msgid "Default paper size"
