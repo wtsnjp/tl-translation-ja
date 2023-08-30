@@ -540,7 +540,7 @@ msgstr "詳細情報"
 
 #: texmf-dist/scripts/texlive/tlmgrgui.pl:860
 msgid "Update the TeX Live Manager"
-msgstr "TeX Live Manager をアップデート"
+msgstr "TeX Liveマネージャをアップデート"
 
 #: texmf-dist/scripts/texlive/tlmgrgui.pl:1027
 #: texmf-dist/scripts/texlive/tlmgrgui.pl:1032
@@ -1747,7 +1747,7 @@ msgstr "内部ヘルプを参照してください"
 
 #: /home/texlive/karl/Master/tlpkg/translations/shortdesc.pl:1
 msgid "basic scheme (plain and latex)"
-msgstr "basicスキーム（plain および latex）"
+msgstr "basicスキーム（plainおよびlatex）"
 
 #: /home/texlive/karl/Master/tlpkg/translations/shortdesc.pl:2
 msgid "book publishing scheme (core LaTeX and add-ons)"
