@@ -4,13 +4,8 @@ require 'rake/clean'
 # cleaning
 CLEAN.include(["messages.mo", "ja-merged.po", "README.JA", "readme.ja.html"])
 
-desc "Rsync the translations dir"
-task :rsync do
-  sh "rsync -a --delete --exclude=.svn tug.org::tldevsrc/Master/tlpkg/translations/ ./translations/"
-end
-
 desc "Merge the translation file"
-task :merge => :rsync do
+task :merge do
   sh "msgmerge -q ja.po ./translations/messages.pot -o ja-merged.po"
 end
 
